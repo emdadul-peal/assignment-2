@@ -2,6 +2,7 @@ import videoBg from "./assets/bg.mp4"
 import HomePage from "./Components/Home/HomePage"
 import "./App.css"
 import Services from "./Components/Home/Services"
+import AboutUs from "./Components/Home/AboutUs"
 
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
       <div>
         <Services/>
       </div>
-
+<div>
+  <AboutUs/>
+</div>
 
 
 
