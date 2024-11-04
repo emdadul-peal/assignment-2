@@ -2,12 +2,14 @@
 
 const AboutUs = () => {
   return (
-   <div className="container mx-auto bg-customFromAboutUsBg p-28">
-     <div className="flex-col md:flex-row justify-center items-center gap-6">
-      <div className="md:relative">
+   <section className=" bg-customFromAboutUsBg py-20 ">
+     <div className=" container mx-auto ">
+     <div className=" flex-col justify-center items-center gap-6">
+      <div className="relative"> 
+      
         <img className=" rounded-lg" src="/images/abut1.png" alt="" />
       </div>
-      <div className="md:absolute right-48 bg-customFromAboutDetailsBg p-8 w-[700px] rounded-lg  ">
+      <div className=" mt-8 bg-customFromAboutDetailsBg p-8  rounded-lg ">
         <div className="">
           <h2 className="font-bold text-4xl ">A Little Bit <span className="text-[#2EB8A2]">About Us</span></h2>
           <p className="mt-2">
@@ -35,7 +37,8 @@ const AboutUs = () => {
         
       </div>
     </div>
-   </div>
+     </div>
+   </section>
   )
 }
 

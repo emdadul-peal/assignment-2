@@ -3,6 +3,8 @@ import HomePage from "./Components/Home/HomePage"
 import "./App.css"
 import Services from "./Components/Home/Services"
 import AboutUs from "./Components/Home/AboutUs"
+import TeamWork from "./Components/Home/TeamWork"
+import PeopleSays from "./Components/Home/PeopleSays"
 
 
 function App() {
@@ -22,6 +24,12 @@ function App() {
       </div>
 <div>
   <AboutUs/>
+</div>
+<div>
+  <TeamWork/>
+</div>
+<div>
+  <PeopleSays/>
 </div>
 
 
