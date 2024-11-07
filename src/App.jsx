@@ -5,6 +5,11 @@ import Services from "./Components/Home/Services"
 import AboutUs from "./Components/Home/AboutUs"
 import TeamWork from "./Components/Home/TeamWork"
 import PeopleSays from "./Components/Home/PeopleSays"
+import OurProjects from "./Components/Home/OurProjects"
+import Achievements from "./Components/Home/Achievements"
+import Subscribe from "./Components/Home/Subscribe"
+import InquirySection from "./Components/Home/InquirySection"
+import Footer from "./Components/Home/Footer"
 
 
 function App() {
@@ -30,6 +35,21 @@ function App() {
 </div>
 <div>
   <PeopleSays/>
+</div>
+<div>
+  <OurProjects/>
+</div>
+<div>
+  <Achievements/>
+</div>
+<div>
+  <Subscribe/>
+</div>
+<div>
+  <InquirySection/>
+</div>
+<div>
+  <Footer/>
 </div>
 
 
